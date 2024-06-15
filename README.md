@@ -28,4 +28,4 @@ AluraGeek é uma loja de produtos onde você pode inserir, listar e excluir os p
 ## Cloud Computing Service
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-challenge-one-alura-geek-theta.vercel.app
+[Link para Visualização AluraGeek](https://challenge-one-alura-geek-theta.vercel.app/)

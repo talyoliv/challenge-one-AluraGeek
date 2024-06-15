@@ -117,11 +117,12 @@ form.formulario {
 }
 
 input.campo__escrita {    
-    width: 94%;
+    width: 100%;
     border-radius: 24px;
     border: 3px solid #03318C;
     padding: 10px;
-    margin: 10px 0px;    
+    margin: 10px 0px;   
+    box-sizing: border-box; 
 } 
 
 div.container__button {

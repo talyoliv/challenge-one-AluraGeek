@@ -25,7 +25,7 @@ function constroiCard(nome, preco, imagem, id) {
 
         var confirmarExclusao = confirm("Você deseja mesmo excluir este produto?");
         if (confirmarExclusao == true) {
-            botaoDelete.remove();
+            botaoDelete.closest("li").remove();
             await conectaApi.excluiProduto(id);
             alert("Produto excluído com sucesso");
         }          

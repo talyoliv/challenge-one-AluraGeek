@@ -14,9 +14,12 @@ async function criarProduto(evento) {
         alert("Produto adicionado com sucesso! Olhe na lista Meus Produtos.")
         await listaProduto();  
         formulario.reset();
+        window.location.reload(true);
     } catch (erro) {
         console.error("Erro ao criar produto:", erro); 
     }    
 }
 
 formulario.addEventListener("submit", evento => criarProduto(evento));
+
+

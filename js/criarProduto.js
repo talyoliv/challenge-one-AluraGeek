@@ -12,7 +12,6 @@ async function criarProduto(evento) {
     try{
         await conectaApi.criaProduto(nome, preco, imagem);
         alert("Produto adicionado com sucesso! Olhe na lista Meus Produtos.")
-        await listaProduto();  
         formulario.reset();
         window.location.reload(true);
     } catch (erro) {
